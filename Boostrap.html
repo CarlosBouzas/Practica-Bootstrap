@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  </head>
+  <body>
+   <h1 class="text-center" aria-hidden="true">Práctica de Bootstrop Grid</h1>
+   <h3>Tipos de Container</h3>
+   <div class="container bg-success">
+       <h4>.container</h4>
+       <p>Fondo color éxito (bg-success)</p>
+   </div>
+
+<div class="container-fluid text-white bg-danger">
+    <h4>.container-fluid</h4>
+    <p>Fondo color peligro (bg-danger). texto blanco (text-white)</p>
+</div>
+
+<h3>Sistema Grid</h3>
+
+<div class="row">
+<div class="container col-4 bg-success">
+    <h3>Columna 1</h3>
+    <p>Lorem ipsum dolo sit amet consectetur adipiscing elit.</p>
+</div>
+<div class="container col-4 bg-warning">
+    <h3>Columna 2</h3>
+    <p>Fondo color aviso (bg-warning</p>
+</div>
+<div class="container col-4 bg-danger">
+    <h3>Columna 3</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+</div>
+</div>
+
+<h3>Tamaño y ubicación columnas: clases offset-*</h3>
+<div class="row">
+<div class="container col-4 bg-success">
+    <h3>Columna 1</h3>
+    <p>Columna tamaño 4</p>
+</div>
+<div class="container col-4 bg-danger offset-4">
+    <h3>Columna 2</h3>
+    <p>Columna tamaño 4 y offset 4</p>
+</div>
+</div>
+<h3>Reordenar columnas: clases order-*</h3>
+<div class="row">
+
+    
+<div class="container col-4 bg-warning order-lg-8">
+<h3>Columna 1</h3>
+<p>Columna reordenada cuando pantalla grande col-4 y order-lg-8</p>
+</div>
+<div class="container col-8 bg-success order-lg-4">
+    <h3>Columna 2</h3>
+    <p>Columna reordenada cuando pantalla grande col-8 y order-lg-4</p>
+</div>
+</div>
+<h3>Columnas hidden: clases display d-*</h3>
+<div class="row">
+    
+    <div class="container-fluid col-sm-6 col-md-4 bg-success">
+        <h3>Columna 1</h3>
+        <p>Siempre visible</p>
+    </div>
+    <div class="container bg-warning d-none col-sm-6 col-md-4 d-sm-block">
+        <h3>Columna 2</h3>
+ <p>Se ocultará cuando tamaño menor de sm (móvil) "d-none d-sm-block"</p>
+    </div>
+    <div class="container-fluid bg-danger d-none col-md-4 d-md-block">
+        <h3>Columna 3</h3>
+        <p>Se ocultará cuando menor de md (tablet) "d-none d-md-block"</p>
+    </div>
+    
+</div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
